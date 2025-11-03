@@ -1,4 +1,4 @@
-% code_for_preferred_architecture_main_text_Figs_4c_to_4h.m
+% code_for_preferred_hypothesis_main_text_Figs_4c_to_4h.m
 % Description: This code executes the mathematical model developed in SI
 % Section S10 in the paper titled, "Loss of plasma membrane conductance of 
 % outside-xylem zone explains non-stomatal control of transpiration". We 

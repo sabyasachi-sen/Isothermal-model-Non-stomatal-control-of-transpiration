@@ -1,4 +1,4 @@
-% code_for_alternative_architecture_cell_wall_SI_Fig_S21.m
+% code_for_alternative_hypothesis_2_cell_wall_SI_Fig_S22.m
 % Description: This code executes the mathematical model developed in SI
 % Section S10 in the paper titled, "Loss of plasma membrane conductance of 
 % outside-xylem zone explains non-stomatal control of transpiration" for 

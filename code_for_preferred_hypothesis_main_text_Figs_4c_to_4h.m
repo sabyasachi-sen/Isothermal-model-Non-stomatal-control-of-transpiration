@@ -17,7 +17,7 @@
 % Last Modified: February 10, 2025
 % Copyright (c) 2025 Sabyasachi Sen
 % If you use this code in your research, please cite as:
-% "Sabyasachi Sen. (2025). code_for_preferred_architecture_main_text_Figs_4c_to_4h.m
+% "Sabyasachi Sen. (2025). code_for_preferred_hypothesis_main_text_Figs_4c_to_4h.m
 % Retrieved from manuscript titled: Loss of plasma membrane conductance of 
 % outside-xylem zone explains non-stomatal control of transpiration"
 % This code is provided under the MIT License.
@@ -292,7 +292,7 @@ rh_neg_err=[rh_bin1_neg_err;rh_bin2_neg_err;rh_bin3_neg_err;rh_bin4_neg_err];
 rh_pos_err=[rh_bin1_pos_err;rh_bin2_pos_err;rh_bin3_pos_err;rh_bin4_pos_err];
 rh_means_model=[rh_bin1_mean;rh_bin2_mean;rh_bin3_mean;rh_bin4_mean];
 
-figure(2);
+figure(3);
 bar(xylem_means,rh_means_model,0.5,'linewidth',2);hold on;
 pbaspect([1 1 1]);
 er=errorbar(xylem_means,rh_means_model,rh_neg_err,rh_pos_err,'linewidth',2);
@@ -307,7 +307,7 @@ goxz_neg_err=[goxz_bin1_neg_err;goxz_bin2_neg_err;goxz_bin3_neg_err;goxz_bin4_ne
 goxz_pos_err=[goxz_bin1_pos_err;goxz_bin2_pos_err;goxz_bin3_pos_err;goxz_bin4_pos_err];
 goxz_means_model=[goxz_bin1_mean;goxz_bin2_mean;goxz_bin3_mean;goxz_bin4_mean];
 
-figure(3);
+figure(4);
 bar(xylem_means,goxz_means_model,0.5,'linewidth',2);hold on;
 pbaspect([1 1 1]);
 er=errorbar(xylem_means,goxz_means_model,goxz_neg_err,goxz_pos_err,'linewidth',2);
@@ -324,7 +324,7 @@ box on;ax=gca;ax.LineWidth = 2;
 rh_means_expt=[0.992847001815885;0.946963460686416;0.929521991233521;0.919537568810321];
 rh_se_expt=[0.00180002577421479;0.0201784472288282;0.0131077713211281;0.0122904973618615];
 
-figure(4);
+figure(5);
 b1=bar(xylem_means,[rh_means_expt zeros(length(rh_means_expt),1)],'grouped','linewidth',2);hold on;
 x=NaN(2,4);
 for i = 1:2
@@ -352,7 +352,7 @@ box on;ax=gca;ax.LineWidth = 2;
 goxz_means_expt=[38556.2258047020;5667.33817184295;2422.37978608609;1541.23262663729];
 goxz_se_expt=[13600.6249811751;1367.98145675526;303.839465584318;290.498308255051];
 
-figure(5);
+figure(6);
 b1=bar(xylem_means,[goxz_means_expt zeros(length(goxz_means_expt),1)],'grouped','linewidth',2);hold on;
 x=NaN(2,4);
 for i = 1:2
